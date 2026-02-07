@@ -2,11 +2,17 @@
 
 This mini project demonstrates an end-to-end ETL (Extract, Transform, Load) pipeline using Python.
 
-### 🔹 Project Overview
-- Extracts data from JSON files
-- Transforms JSON data into structured pandas DataFrames
-- Performs data cleaning and transformations
-- Loads the transformed data into SQL Server tables
+### 🔹 Data Entities
+- Orders
+- Customers
+- Products
+
+### 🔹 Project Workflow
+1. Extract order, customer, and product data from JSON files
+2. Normalize nested JSON into structured pandas DataFrames
+3. Perform data cleaning and transformations
+4. Truncate target SQL Server tables before loading
+5. Load processed data into relational tables
 
 ### 🔹 Technologies Used
 - Python
